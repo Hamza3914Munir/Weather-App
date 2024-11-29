@@ -3,9 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:provider/provider.dart';
-import 'package:weather_app/Activity/Loading.dart';
 import 'package:weather_icons/weather_icons.dart';
-import 'package:weather_app/Provider/WeatherData.dart';
+
+import '../Provider/WeatherData.dart';
+import 'Loading.dart';
 
 class Home extends StatefulWidget {
   @override

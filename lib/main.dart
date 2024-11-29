@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:weather_app/Activity/Loading.dart';
-import 'package:weather_app/Provider/WeatherData.dart';
+
+import 'Activity/Loading.dart';
+import 'Provider/WeatherData.dart';
+
 
 
 void main() {

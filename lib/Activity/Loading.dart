@@ -2,13 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:provider/provider.dart';
-import 'package:weather_app/Activity/Home.dart';
-import 'package:weather_app/Activity/Location.dart';
-import 'package:weather_app/Provider/WeatherData.dart';
+import '../Provider/WeatherData.dart';
+import 'Home.dart';
+import 'Location.dart';
 
 class Loading extends StatefulWidget {
   final String? searchText;
-
   Loading([this.searchText]);
 
   @override
